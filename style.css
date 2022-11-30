@@ -7,30 +7,31 @@
   border: none;
   height: 300px;
   flex: 1 1 auto;
+  border: 4px solid indigo;
 }
 
 .section1 {
   display: flex;
-  flex: 1 1 auto;
+  flex-direction: row;
+  flex: 1 1 0;
   font-family: roboto;
   background-color: #1F2937;
   color: #F9FAF8;
   padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
-  margin-bottom: 50px;
-  size: 48px;
-  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+  align-items: center;
 }
 
 .first-container{
   display: flex;
-  flex: 1 1 auto;
+  flex: 1 1 0;
   flex-direction: column;
 }
 
 .second-container{
-  
+  background: lightblue;
+  border: 4px solid blue;
 }
 
 .section3 {
@@ -45,4 +46,8 @@
   font-size: 20px;
   font-style: italic;
   justify-content: space-between;
+}
+
+.section4 {
+  align-items: center;
 }
