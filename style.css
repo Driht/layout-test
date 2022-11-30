@@ -1,0 +1,48 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container div {
+  border: none;
+  height: 300px;
+  flex: 1 1 auto;
+}
+
+.section1 {
+  display: flex;
+  flex: 1 1 auto;
+  font-family: roboto;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 50px;
+  size: 48px;
+  justify-content: space-between;
+}
+
+.first-container{
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.second-container{
+  
+}
+
+.section3 {
+  display: flex;
+  background-color: #E5E7EB;
+  color: #1F2937;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 20px;
+  font-style: italic;
+  justify-content: space-between;
+}
