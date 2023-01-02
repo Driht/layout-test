@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="style.css">
 	<title>layout test</title>
 </head>
 
@@ -10,22 +10,35 @@
 <div>
   <div class="flex-container">
     <div class="section1">
-    <div class="first-container"><h1>This website is awesome</h1>
-      <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.<p>
+    <div class="first-container"><h1 style="font-weight: 900; font-size: 62px">This website is awesome</h1>
+      <p style="font-weight: 300; font-size: 24px">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+	  <p><button class="button">Sign up</button></p>
       </div>
       <div class="second-container">
       <h2>placeholder</h2>
       </div>
     </div>
-    <div class="section2"></div>
+    <div class="section2">
+	<div id="title">Some random information.</div>
+	<div id="section2boxes">
+	<div id="box"></div>
+	<div id="box"></div>
+	<div id="box"></div>
+	<div id="box"></div>
+	</div>
+	</div>
+
     <div class="section3">
-      <div><p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-        <p>-Thor, God of Thunder</p>
+	<figure>
+      <blockquote style="font-weight: 300"><i>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</i></blockquote>
+	<figcaption align="right" style="font-size:16px"><b>-Thor, God of Thunder</b></figcaption>
+	  </figure>
     </div>
-    </div>
+
     <div class="section4">
       <p>button here</p>
     </div>
+	</div>
 </div>
 </body>
 </html>
